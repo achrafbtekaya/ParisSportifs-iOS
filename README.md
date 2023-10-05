@@ -14,7 +14,7 @@
 
 ## Features
 
-- [x] MVVM architecture
+- [x] MVVM architecture with Clean Architecture rules
 - [x] Swift 5.8.1
 - [x] Github hosted code, git versioning, master main branch
 - [x] Cocoapods and Swift Package Manager for external libs
