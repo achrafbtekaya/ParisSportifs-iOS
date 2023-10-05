@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		526ED55E2ACF08310011E092 /* NetworkRequestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526ED55D2ACF08310011E092 /* NetworkRequestsTests.swift */; };
+		526ED56D2ACF151C0011E092 /* FunctionalLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526ED56C2ACF151C0011E092 /* FunctionalLogicTests.swift */; };
+		52AF9BD1291F91E4002B0D14 /* ParisSportifsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF9BD0291F91E4002B0D14 /* ParisSportifsApp.swift */; };
+		52AF9BD5291F91E6002B0D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AF9BD4291F91E6002B0D14 /* Assets.xcassets */; };
+		52AF9BD8291F91E6002B0D14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AF9BD7291F91E6002B0D14 /* Preview Assets.xcassets */; };
+		52AF9BE0291F93FA002B0D14 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF9BDF291F93FA002B0D14 /* Constants.swift */; };
+		52AF9BE3291F95B3002B0D14 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF9BE2291F95B3002B0D14 /* League.swift */; };
+		52AF9BE5291F96B8002B0D14 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF9BE4291F96B8002B0D14 /* Team.swift */; };
+		52AF9BEA291FA009002B0D14 /* LeagueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF9BE9291FA009002B0D14 /* LeagueService.swift */; };
+		52AF9BEC291FA20F002B0D14 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF9BEB291FA20F002B0D14 /* HomeView.swift */; };
+		52AF9BEE291FA232002B0D14 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF9BED291FA232002B0D14 /* HomeViewModel.swift */; };
+		52E842CB29206E69002A2845 /* TeamService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E842CA29206E69002A2845 /* TeamService.swift */; };
+		52E842CE292070D5002A2845 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 52E842CD292070D5002A2845 /* URLImage */; };
+		52E842D0292070D5002A2845 /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = 52E842CF292070D5002A2845 /* URLImageStore */; };
+		52E842D22921AEF2002A2845 /* TeamDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E842D12921AEF2002A2845 /* TeamDetailsView.swift */; };
+		52E842D42921BCE4002A2845 /* TeamDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E842D32921BCE4002A2845 /* TeamDetailsViewModel.swift */; };
+		52E842D629226A12002A2845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E842D529226A12002A2845 /* LaunchScreen.storyboard */; };
+		BF8828519787204B07FBA7CB /* Pods_ParisSportifs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A3BEC3FFBB1515670D0DF9 /* Pods_ParisSportifs.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		526ED55F2ACF08310011E092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52AF9BC5291F91E3002B0D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52AF9BCC291F91E4002B0D14;
+			remoteInfo = ParisSportifs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5048FF15FE25834219C22D8A /* Pods-ParisSportifs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParisSportifs.debug.xcconfig"; path = "Target Support Files/Pods-ParisSportifs/Pods-ParisSportifs.debug.xcconfig"; sourceTree = "<group>"; };
+		526ED55B2ACF08310011E092 /* ParisSportifsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParisSportifsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		526ED55D2ACF08310011E092 /* NetworkRequestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestsTests.swift; sourceTree = "<group>"; };
+		526ED56C2ACF151C0011E092 /* FunctionalLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalLogicTests.swift; sourceTree = "<group>"; };
+		52AF9BCD291F91E4002B0D14 /* ParisSportifs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParisSportifs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AF9BD0291F91E4002B0D14 /* ParisSportifsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParisSportifsApp.swift; sourceTree = "<group>"; };
+		52AF9BD4291F91E6002B0D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52AF9BD7291F91E6002B0D14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52AF9BDF291F93FA002B0D14 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		52AF9BE2291F95B3002B0D14 /* League.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League.swift; sourceTree = "<group>"; };
+		52AF9BE4291F96B8002B0D14 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		52AF9BE9291FA009002B0D14 /* LeagueService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueService.swift; sourceTree = "<group>"; };
+		52AF9BEB291FA20F002B0D14 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		52AF9BED291FA232002B0D14 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		52E842CA29206E69002A2845 /* TeamService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamService.swift; sourceTree = "<group>"; };
+		52E842D12921AEF2002A2845 /* TeamDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsView.swift; sourceTree = "<group>"; };
+		52E842D32921BCE4002A2845 /* TeamDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsViewModel.swift; sourceTree = "<group>"; };
+		52E842D529226A12002A2845 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9123E3C3A074CDF47DB6B1EA /* Pods-ParisSportifs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParisSportifs.release.xcconfig"; path = "Target Support Files/Pods-ParisSportifs/Pods-ParisSportifs.release.xcconfig"; sourceTree = "<group>"; };
+		B0A3BEC3FFBB1515670D0DF9 /* Pods_ParisSportifs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParisSportifs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		526ED5582ACF08310011E092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52AF9BCA291F91E4002B0D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E842CE292070D5002A2845 /* URLImage in Frameworks */,
+				52E842D0292070D5002A2845 /* URLImageStore in Frameworks */,
+				BF8828519787204B07FBA7CB /* Pods_ParisSportifs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		526ED55C2ACF08310011E092 /* ParisSportifsTests */ = {
+			isa = PBXGroup;
+			children = (
+				526ED55D2ACF08310011E092 /* NetworkRequestsTests.swift */,
+				526ED56C2ACF151C0011E092 /* FunctionalLogicTests.swift */,
+			);
+			path = ParisSportifsTests;
+			sourceTree = "<group>";
+		};
+		52AF9BC4291F91E3002B0D14 = {
+			isa = PBXGroup;
+			children = (
+				52AF9BCF291F91E4002B0D14 /* ParisSportifs */,
+				526ED55C2ACF08310011E092 /* ParisSportifsTests */,
+				52AF9BCE291F91E4002B0D14 /* Products */,
+				5E7E7C2D04022C0C69696E9A /* Pods */,
+				B6F74FB49257F2B0A10F4A38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52AF9BCE291F91E4002B0D14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52AF9BCD291F91E4002B0D14 /* ParisSportifs.app */,
+				526ED55B2ACF08310011E092 /* ParisSportifsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52AF9BCF291F91E4002B0D14 /* ParisSportifs */ = {
+			isa = PBXGroup;
+			children = (
+				52AF9BE8291F9FC3002B0D14 /* Service */,
+				52AF9BE7291F9E6D002B0D14 /* View */,
+				52AF9BE6291F9E5A002B0D14 /* ViewModel */,
+				52AF9BE1291F959C002B0D14 /* Model */,
+				52AF9BDE291F93D1002B0D14 /* Common */,
+				52AF9BD0291F91E4002B0D14 /* ParisSportifsApp.swift */,
+				52AF9BD4291F91E6002B0D14 /* Assets.xcassets */,
+				52AF9BD6291F91E6002B0D14 /* Preview Content */,
+			);
+			path = ParisSportifs;
+			sourceTree = "<group>";
+		};
+		52AF9BD6291F91E6002B0D14 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52AF9BD7291F91E6002B0D14 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52AF9BDE291F93D1002B0D14 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				52AF9BDF291F93FA002B0D14 /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		52AF9BE1291F959C002B0D14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52AF9BE2291F95B3002B0D14 /* League.swift */,
+				52AF9BE4291F96B8002B0D14 /* Team.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52AF9BE6291F9E5A002B0D14 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				52AF9BED291FA232002B0D14 /* HomeViewModel.swift */,
+				52E842D32921BCE4002A2845 /* TeamDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		52AF9BE7291F9E6D002B0D14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52AF9BEB291FA20F002B0D14 /* HomeView.swift */,
+				52E842D12921AEF2002A2845 /* TeamDetailsView.swift */,
+				52E842D529226A12002A2845 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52AF9BE8291F9FC3002B0D14 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				52AF9BE9291FA009002B0D14 /* LeagueService.swift */,
+				52E842CA29206E69002A2845 /* TeamService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5E7E7C2D04022C0C69696E9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5048FF15FE25834219C22D8A /* Pods-ParisSportifs.debug.xcconfig */,
+				9123E3C3A074CDF47DB6B1EA /* Pods-ParisSportifs.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B6F74FB49257F2B0A10F4A38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0A3BEC3FFBB1515670D0DF9 /* Pods_ParisSportifs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		526ED55A2ACF08310011E092 /* ParisSportifsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526ED5612ACF08310011E092 /* Build configuration list for PBXNativeTarget "ParisSportifsTests" */;
+			buildPhases = (
+				526ED5572ACF08310011E092 /* Sources */,
+				526ED5582ACF08310011E092 /* Frameworks */,
+				526ED5592ACF08310011E092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526ED5602ACF08310011E092 /* PBXTargetDependency */,
+			);
+			name = ParisSportifsTests;
+			productName = ParisSportifsTests;
+			productReference = 526ED55B2ACF08310011E092 /* ParisSportifsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52AF9BCC291F91E4002B0D14 /* ParisSportifs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52AF9BDB291F91E6002B0D14 /* Build configuration list for PBXNativeTarget "ParisSportifs" */;
+			buildPhases = (
+				4DA1530E76ACF9F928B49B8C /* [CP] Check Pods Manifest.lock */,
+				52AF9BC9291F91E4002B0D14 /* Sources */,
+				52AF9BCA291F91E4002B0D14 /* Frameworks */,
+				52AF9BCB291F91E4002B0D14 /* Resources */,
+				A0F447DEE10307A7E23F3F64 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParisSportifs;
+			packageProductDependencies = (
+				52E842CD292070D5002A2845 /* URLImage */,
+				52E842CF292070D5002A2845 /* URLImageStore */,
+			);
+			productName = ParisSportifs;
+			productReference = 52AF9BCD291F91E4002B0D14 /* ParisSportifs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52AF9BC5291F91E3002B0D14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					526ED55A2ACF08310011E092 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 52AF9BCC291F91E4002B0D14;
+					};
+					52AF9BCC291F91E4002B0D14 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 52AF9BC8291F91E3002B0D14 /* Build configuration list for PBXProject "ParisSportifs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52AF9BC4291F91E3002B0D14;
+			packageReferences = (
+				52E842CC292070D5002A2845 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
+			productRefGroup = 52AF9BCE291F91E4002B0D14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52AF9BCC291F91E4002B0D14 /* ParisSportifs */,
+				526ED55A2ACF08310011E092 /* ParisSportifsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		526ED5592ACF08310011E092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52AF9BCB291F91E4002B0D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E842D629226A12002A2845 /* LaunchScreen.storyboard in Resources */,
+				52AF9BD8291F91E6002B0D14 /* Preview Assets.xcassets in Resources */,
+				52AF9BD5291F91E6002B0D14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DA1530E76ACF9F928B49B8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParisSportifs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F447DEE10307A7E23F3F64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParisSportifs/Pods-ParisSportifs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParisSportifs/Pods-ParisSportifs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParisSportifs/Pods-ParisSportifs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		526ED5572ACF08310011E092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526ED55E2ACF08310011E092 /* NetworkRequestsTests.swift in Sources */,
+				526ED56D2ACF151C0011E092 /* FunctionalLogicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52AF9BC9291F91E4002B0D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52AF9BE3291F95B3002B0D14 /* League.swift in Sources */,
+				52AF9BEC291FA20F002B0D14 /* HomeView.swift in Sources */,
+				52AF9BEE291FA232002B0D14 /* HomeViewModel.swift in Sources */,
+				52E842D22921AEF2002A2845 /* TeamDetailsView.swift in Sources */,
+				52AF9BD1291F91E4002B0D14 /* ParisSportifsApp.swift in Sources */,
+				52E842CB29206E69002A2845 /* TeamService.swift in Sources */,
+				52AF9BEA291FA009002B0D14 /* LeagueService.swift in Sources */,
+				52AF9BE5291F96B8002B0D14 /* Team.swift in Sources */,
+				52E842D42921BCE4002A2845 /* TeamDetailsViewModel.swift in Sources */,
+				52AF9BE0291F93FA002B0D14 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		526ED5602ACF08310011E092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52AF9BCC291F91E4002B0D14 /* ParisSportifs */;
+			targetProxy = 526ED55F2ACF08310011E092 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		526ED5622ACF08310011E092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KDU78Q85UY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.achrafbt.ParisSportifsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParisSportifs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParisSportifs";
+			};
+			name = Debug;
+		};
+		526ED5632ACF08310011E092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KDU78Q85UY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.achrafbt.ParisSportifsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParisSportifs.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParisSportifs";
+			};
+			name = Release;
+		};
+		52AF9BD9291F91E6002B0D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52AF9BDA291F91E6002B0D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52AF9BDC291F91E6002B0D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5048FF15FE25834219C22D8A /* Pods-ParisSportifs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParisSportifs/Preview Content\"";
+				DEVELOPMENT_TEAM = KDU78Q85UY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.achrafbt.ParisSportifs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52AF9BDD291F91E6002B0D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9123E3C3A074CDF47DB6B1EA /* Pods-ParisSportifs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParisSportifs/Preview Content\"";
+				DEVELOPMENT_TEAM = KDU78Q85UY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.achrafbt.ParisSportifs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		526ED5612ACF08310011E092 /* Build configuration list for PBXNativeTarget "ParisSportifsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526ED5622ACF08310011E092 /* Debug */,
+				526ED5632ACF08310011E092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52AF9BC8291F91E3002B0D14 /* Build configuration list for PBXProject "ParisSportifs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52AF9BD9291F91E6002B0D14 /* Debug */,
+				52AF9BDA291F91E6002B0D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52AF9BDB291F91E6002B0D14 /* Build configuration list for PBXNativeTarget "ParisSportifs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52AF9BDC291F91E6002B0D14 /* Debug */,
+				52AF9BDD291F91E6002B0D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52E842CC292070D5002A2845 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52E842CD292070D5002A2845 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52E842CC292070D5002A2845 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		52E842CF292070D5002A2845 /* URLImageStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52E842CC292070D5002A2845 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImageStore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 52AF9BC5291F91E3002B0D14 /* Project object */;
+}
